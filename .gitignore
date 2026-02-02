@@ -136,6 +136,10 @@ celerybeat.pid
 
 # Environments
 .env
+.env.*
+*.env
+OPENAI_API_KEY.env
+!.env.example
 .envrc
 .venv
 env/
