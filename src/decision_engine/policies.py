@@ -1,9 +1,11 @@
-"""Effort policies & constraints for the decision engine.
+from __future__ import annotations
+import pandas as pd
 
-Keep these simple and explicit so they can be audited easily.
-"""
 
-POLICIES = {
-    "baseline": {"uplift_cap": 1.0, "decay": 0.15, "payback_months_max": 18},
-    "enterprise_retention": {"uplift_cap": 1.2, "decay": 0.10, "payback_months_max": 18},
-}
+def apply_policies(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Apply business rules (eligibility/exclusions) exactly like in the notebook (no refactor).
+    Currently a passthrough placeholder: paste your policy filters here when ready.
+    """
+    # >>> Paste your policy code from notebook here (filters, thresholds, drops) <<<
+    return df
