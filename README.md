@@ -6,7 +6,7 @@ This repository demonstrates a production-grade Decision Intelligence system for
 
 ---
 
-## 🎯 Executive Summary
+## Executive Summary
 
 **Business Question**: Where should we invest limited effort to maximize revenue growth and retention?
 
@@ -20,7 +20,7 @@ This repository demonstrates a production-grade Decision Intelligence system for
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 ai-decision-intelligence-main/
@@ -65,7 +65,7 @@ ai-decision-intelligence-main/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Setup Environment
 
@@ -119,7 +119,7 @@ python agent/run_agent.py --out outputs/agent_outputs/agentic_checks.json
 
 ---
 
-## 🔬 Technical Highlights
+## Technical Highlights
 
 ### Data Foundation (Notebook 00)
 - **Churn reconstruction**: Account-level gross churn with reactivation logic
@@ -142,7 +142,7 @@ python agent/run_agent.py --out outputs/agent_outputs/agentic_checks.json
 
 ---
 
-## 📊 Key Metrics & KPIs
+## Key Metrics & KPIs
 
 | Metric | Formula | Business Meaning |
 |--------|---------|------------------|
@@ -154,7 +154,7 @@ python agent/run_agent.py --out outputs/agent_outputs/agentic_checks.json
 
 ---
 
-## 🧪 Validation & Quality
+## Validation & Quality
 
 ### Sanity Checks
 - Schema validation (required columns, data types)
@@ -172,7 +172,7 @@ python agent/run_agent.py --out outputs/agent_outputs/agentic_checks.json
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technologies |
 |-------|-------------|
@@ -183,7 +183,7 @@ python agent/run_agent.py --out outputs/agent_outputs/agentic_checks.json
 
 ---
 
-## 📝 Contributing & Extensions
+## Contributing & Extensions
 
 **Potential improvements**:
 1. Add Monte Carlo simulation for expansion/contraction uncertainty
@@ -194,6 +194,6 @@ python agent/run_agent.py --out outputs/agent_outputs/agentic_checks.json
 
 ---
 
-## 📧 Contact
+## Contact
 
 For questions or collaboration: alex.domingues@essec.edu
